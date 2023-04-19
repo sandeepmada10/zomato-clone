@@ -1,0 +1,19 @@
+.item-cover{
+
+    height: 190px;
+    width: 260px;
+
+}
+.item-image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    display: flex;
+}
+.item-title{
+    font-size: 20px;
+    font-weight: 500px;
+    overflow: hidden;
+    margin-top: 6px;
+}

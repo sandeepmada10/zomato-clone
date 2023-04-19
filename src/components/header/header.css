@@ -1,0 +1,72 @@
+.header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+
+}
+.header-logo{
+    height: 20px;
+    width: 140px;
+    margin-right: 24px;
+    cursor: pointer;
+}
+.header-left{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+}
+.location-icon-name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.location-wrapper{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-location-search-container{
+    box-shadow: var(--primary-box-shadow);
+    border: 1px solid var(--primary-white);
+    height: 54px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    width: 70%;
+}
+.location-name{
+    color: var(--zomato-gray);
+    
+
+}
+.location-input{
+    border: none;
+    outline: none;
+}
+.location-search-seperator{
+    height: 20px;
+    border: 0.5px solid var(--gray);
+    cursor: pointer;
+}
+.header-search-bar{
+    display: flex;
+    flex: 2;
+}
+.search-icon{
+    margin:0 10px;
+}
+.search-input{
+    border:none;
+    outline: none;
+    font-size: 14px;
+    width: 90%;
+}
+.login{
+    font-size: 20px;
+}
+.Sign-up{
+    font-size: 20px;
+}

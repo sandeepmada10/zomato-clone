@@ -1,0 +1,28 @@
+.tab-options{
+   
+    border-bottom: 1px solid var(--primary-white);
+   
+}
+.options-wrapper{
+    display:flex;
+    margin-top: 10px;
+}
+.tab-item{
+    margin-right: 24px;
+    padding: 10px;
+}
+.tab-name{
+    font-size: 20px;
+    margin-left: 10px;
+
+}
+.tab-image{
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.active-tab{
+    border-bottom: 2px solid red;
+}
+.active-tab .tab-name{
+    color: red;
+}
